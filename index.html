@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Signup Form</title>
+    <style type="text/css">
+        div{width: 500px;
+        margin: 0 auto;}
+        input{width: 303px;}
+        input[type="radio"] {width:50px;}
+        input[type="submit"]{width: 202px}
+        select {color: #122b40;}
+
+
+
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="navbar-fixed-top"></div>
+</header>
+<div>
+<form name="data_form" method="post">
+
+        <legend>Sign Up</legend>
+    <table border="0px">
+        <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text" name="firstname" placeholder="First Name" required></td>
+        </tr>
+        <tr>
+            <td><label>Last Name</label></td>
+            <td><input type="text" name="lastname"placeholder="Last Name"required></td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date" name="date"required></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td><label>Male</label>
+                <input type="radio" value="Male" name="gender">
+                <label>Female</label>
+                <input type="radio" value="Female" name="gender"></td>
+        </tr>
+        <tr>
+            <td><label>cell No</label></td>
+            <td><input type="number"placeholder="Cell Number"required></td>
+        </tr>
+        <tr>
+            <td><label>Country</label></td>
+            <td><select name="Country" style="width: 303px" required>
+                <option value="Pakistan">Select Country</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Iran">Iran</option>
+                <option value="UAE">UAE</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>City:</label></td>
+            <td><input type="text" name="city" required></td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><textarea cols="40" rows="5" required></textarea></td>
+        </tr>
+        <tr>
+            <td><label>User Name:</label></td>
+            <td><input type="text" name="username"placeholder="User Name"required></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" placeholder="abc@email.com" required></td>
+        </tr>
+        <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" name="pass"placeholder="Password" required></td>
+        </tr>
+        <tr>
+            <td><label>Re-Password</label></td>
+            <td><input type="password" name="repass"placeholder="Re-Password" required></td>
+        </tr>
+        <tr>
+            <td><label>Facebook URL</label></td>
+            <td><input type="url" name="url"placeholder="Facebook URL" required></td>
+        </tr>
+        <tr>
+            <td><label>Browse Image</label></td>
+            <td><input type="file" value="Browse Image" accept="image/jpeg, image/Gif" name="browse" required></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Send" class="glyphicon-save"><input type="submit" value="Clear"></td>
+
+        </tr>
+    </table>
+
+
+
+
+
+</form>
+</div>
+<div style="clear:both"></div>
+<footer>
+    <p style=" position: relative; bottom: -100px; text-align: center; margin: 0;">Design & Developed By <a href="https://www.facebook.com/danish.qamar.56" target="_blank"> <b>Danish Qamar</b></a></p>
+</footer>
+</body>
+</html>
